@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:black;
+    border-radius: 7px;
+    height:8vh;
+}
+.nav a 
+{
+    padding-left:4%;
+    font-family: 'Gamja Flower';
+    font-size: 180%;
+    color:orangered;
+}
+.nav img
+{
+    width:7%;
+    height:44px;
+    padding-left: 2%;
+}
+.welcome
+{
+    height:30rem;
+    background: url("Images/stock-vector-easy-to-edit-vector-illustration-of-player-in-abstract-cricket-championship-background-385771927.jpg");
+    z-index: -20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    font-size: 400%;
+    color:lime;
+    font-family: 'The Girl Next Door';
+    font-weight: 800;
+    margin-top: -10px;
+}
+p
+{
+    font-size: 250%;
+    color:lime;
+    font-family: 'The Girl Next Door';
+    font-weight: 800;
+}
+.miss
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+}
+.slice
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left:2%;
+    width:34%;
+    height: 220px;
+    margin-top: -11vh;
+}
+img
+{
+    height:160px;
+    width:45%;
+    padding-right: 2%;
+}
+i
+{
+    font-size: 153%;
+    font-family: 'Kaushan Script';
+}
+h2
+{
+    font-size: 400%;
+    font-family: 'The Girl Next Door';
+}
+h3
+{
+    font-size: 300%;
+    font-family: 'The Girl Next Door';
+}
+.foot
+{
+   width:auto;
+   text-align: center;
+   background-color: black;
+}
+.title
+{
+    background-color:lightgoldenrodyellow;
+}
+.foot b
+{
+    font-size: 150%;
+    font-family: 'Kaushan Script';
+    color:khaki;
+}

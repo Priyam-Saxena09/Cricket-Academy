@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+body
+{
+    background: url("Images/photo-1565787113639-c14b1adc198c.jpg");
+    background-size: 20rem;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(20,50,40,0.5);
+    width:565px;
+    position: absolute;
+    top:10%;
+    left:35%;
+    height:640px;
+}
+input
+{
+    margin-bottom: 10%;
+    width:365px;
+    height:22px;
+}
+select
+{
+    width:285px;
+    margin-bottom: 10%;
+}
+h1        
+{
+    font-size: 230%;
+    font-family: 'The Girl Next Door';
+    font-weight: 800;
+}
+button
+{ 
+     width:65px;
+     background-color: seagreen;
+}
