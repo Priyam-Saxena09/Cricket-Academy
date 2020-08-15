@@ -59,17 +59,21 @@ app.get("/get",async(req,res) => {
     }
 })
 
-app.get("/register",async(req,res) => {
+app.get("/register",(req,res) => {
+    res.render("register",{})
+})
+
+app.get("/fill",async(req,res) => {
+    if(login!="")
+    {
     const User = await user.find({"email":login})
-    res.render("register",{
+    res.send({
         "em":User[0].email,
         "nm":User[0].name
     })
+}
 })
 
-app.get("/regis",(req,res) => {
-    res.render("register",{})
-})
 app.post("/submit",async(req,res) => {
     const use = await new regis(req.body)
     const User = await user.find({"email":login})
@@ -78,11 +82,14 @@ app.post("/submit",async(req,res) => {
     }).catch(() => {
         res.render("404",{
             "error":"Already registered,or you have not filled all the details.",
-            "back":"/regis"
+            "back":"/register"
         })
     })
 })
 
+app.get("/inst",(req,res) => {
+    res.render("inst",{})
+})
 app.get("/about",(req,res) => {
     res.render("about",{})
 })

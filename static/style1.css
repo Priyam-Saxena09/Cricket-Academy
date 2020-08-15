@@ -13,9 +13,15 @@ form
     background: rgba(20,50,40,0.5);
     width:565px;
     position: absolute;
-    top:10%;
+    top:4%;
     left:35%;
-    height:640px;
+    height:930px;
+}
+p
+{
+    font-size: 115%;
+    margin-left: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 input
 {
@@ -25,7 +31,7 @@ input
 }
 select
 {
-    width:285px;
+    width:365px;
     margin-bottom: 10%;
 }
 h1        
@@ -33,6 +39,10 @@ h1
     font-size: 230%;
     font-family: 'The Girl Next Door';
     font-weight: 800;
+}
+b
+{
+    font-size: 120%;
 }
 button
 { 
